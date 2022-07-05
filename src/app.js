@@ -46,5 +46,5 @@ app.get("*",(req,res)=>{
 
 
 app.listen(port,()=>{
-    console.log("final ended");
+    console.log(`listening to the port no at ${port}`);
 });
